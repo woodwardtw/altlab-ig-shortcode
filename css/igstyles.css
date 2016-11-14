@@ -1,0 +1,22 @@
+.ig_thumb {
+	width: 30%;
+	height: 185px;
+	display: inline-block;
+	margin: 5px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.ig_thumb a:hover {
+	border: 1px solid #424242;
+	margin: 4px;
+}
+
+@media only screen and (max-width: 767px) {
+	.ig_thumb {
+	width: 65%;
+	height: 185px;
+	
+	}
+}
